@@ -1,0 +1,503 @@
+body {
+  margin: 0px
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.container-2 {
+  width: auto;
+  margin: 0 auto;
+}
+
+/* -------------------------------------------------- BACKGROUND ---------------------------------------------------- */
+
+  .bg-aqua {
+    background-color: rgb(214, 253, 254);
+  }
+
+  .bg-mauve {
+    background-color: rgb(153, 153, 248);
+  }
+
+/* -------------------------------------------------- BUTTON ---------------------------------------------------- */
+
+  .button-subscribe{
+    padding: 10px;
+    background-color: rgb(136, 170, 110);
+    color: white;
+    border: 1px solid black;
+    border-radius: 2px;
+    cursor: pointer;
+  }
+
+/* -------------------------------------------------- PADDING ---------------------------------------------------- */
+
+  .padding-icones{
+    padding: 10px 0px 20px 5px;
+  }
+
+  .padding-lr-5px{
+    padding: 0px 5px;
+  }
+
+  .padding-top-20px {
+    padding-top: 20px;
+  }
+
+  .padding-text-bg-mauve{
+    padding: 0px 20px 0px 10px;
+  }
+
+  .padding-tb-10px{
+    padding: 10px 0px;
+  }
+
+  .padding-bot-20px{
+    padding-bottom: 20px;
+  }
+
+  .padding-top-30px{
+    padding-top: 30px;
+  }
+
+  .padding-bot-30px{
+    padding-bottom: 30px;
+  }
+
+  .padding-bot-50px{
+    padding-bottom: 50px;
+  }
+
+
+/* -------------------------------------------------- MARGIN ---------------------------------------------------- */
+
+  .margin-logo {
+    margin: 25px 0px;
+  }
+
+  .no-margin {
+    margin: 0px;
+  }
+
+  .margin-bot-10px {
+    margin: 10px 0px;
+  }
+
+  .margin-lr-5px{
+    margin: 0px 5px;
+  }
+
+  .margin-top-10{
+    margin-top: 10px;
+  }
+
+  .margin-lr-15px{
+    margin: 0px 15px;
+  }
+
+  .margin-r-15px{
+    margin-right: 15px;
+  }
+/* -------------------------------------------------- IMG-LOGO ---------------------------------------------------- */
+
+  .img-logo {
+    width: 100%;
+  }
+  .img-logo-modify{
+    width: 100%;
+  }
+
+  .img-small {
+    width: 100%;
+    height: auto;
+  }
+
+  .test-img{
+    height: 100px;
+    margin: 0px 5px;
+  }
+
+  .img-small-2{
+    width: 225px;
+    height: 150px;
+  }
+/* -------------------------------------------------- IMG-SLIDEBAR ---------------------------------------------------- */
+
+  .img-padding {
+    padding: 70px 0px;
+  }
+
+  .img-slider {
+    width: 100%;
+  }
+
+
+
+  * {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* -------------------------------------------------- IMG---------------------------------------------------- */
+
+  .img-100-p{
+    width: 100%;
+    height: max-content;
+  }
+
+  .float-l{
+    float: left;
+  }
+
+
+/* -------------------------------------------------- BORDERS ---------------------------------------------------- */
+
+  .border-black-bot {
+    border-bottom: 1px solid black;
+  }
+
+  .border-white-top {
+    border-top: 1px solid white;
+  }
+
+  .border-lightgrey-bot {
+    border-bottom: 1px solid lightgrey;
+  }
+
+  .border-white-top-modify {
+    border-top: 1px solid white;
+  }
+
+  .border-all-flags{
+    padding: 5px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+  }
+
+/* -------------------------------------------------- COLORS ---------------------------------------------------- */
+
+  .black {
+    color: black;
+  }
+
+  .white {
+    color: white;
+  }
+
+  .sub-grey{
+    color: rgb(165, 162, 148);
+  }
+
+  .color-more-info {
+    color: rgb(206, 82, 82);
+  }
+
+  .grey-footer{
+    color: rgb(127, 120, 170);
+  }
+/* -------------------------------------------------- FLEXBOX ---------------------------------------------------- */
+
+  .flex {
+    display: flex;
+  }
+
+  .flex-2 {
+    display: flex;
+  }
+  .flex-3 {
+    display: flex;
+  }
+
+  .flex-4 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .flex-column-footer{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .flex-column {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .flex-column-modify{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .flex-column-modify-3{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .flex-column-flags{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .flex-column-why-us{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .flex-center {
+    display: flex;
+    justify-content: center;
+  }
+
+  .flex-between {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .flex-evenly {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+/* -------------------------------------------------- NAVBAR ---------------------------------------------------- */
+
+  .text-align-l-nav {
+    text-align: left;
+    padding: 10px 10px;
+  }
+
+  .text-align-l-nav-modify {
+    text-align: left;
+    padding: 10px 10px;
+  }
+
+  .fleche-padding {
+    margin: 10px 10px;
+  }
+
+  a:hover{
+    color: red;
+  }
+
+/* -------------------------------------------------- TEXT ---------------------------------------------------- */
+
+ .no-decoration {
+  text-decoration: none;
+ }
+
+ .text-center {
+  text-align: center;
+ }
+
+ .fs-11px{
+  font-size: 11px;
+ }
+
+ .fs-13px{
+  font-size: 13px;
+ }
+
+/* -------------------------------------------------- MEDIA QUERIES ---------------------------------------------------- */
+
+  @media (min-width:425px)  { /* Téléphone large */
+    .container{
+      width: 80%;
+      margin: 0 auto;
+    }
+
+    .img-logo {
+      width: 70%;
+      display: block;
+      margin: auto;
+    }
+  }
+
+  @media (min-width:768px)  { /* Tablette */
+    .container{
+      width: 90%;
+      margin: 0 auto;
+    }
+
+    .flex-column-modify{
+      display: flex;
+      flex-direction: row;
+    }
+
+    .border-white-top-modify{
+      border-top: transparent;
+    }
+
+    .text-align-l-nav-modify{
+      text-align: left;
+      padding: 10px 10px;
+    }
+
+    .img-logo {
+      width: 55%;
+      display: block;
+      margin: auto 0px;
+    }
+
+    .flex-column{
+      display: flex;
+      flex-direction: row;
+    }
+
+    .flex-2{
+      display: flex;
+      flex-direction: row;
+    }
+
+    .fs-11px{
+      font-size: 13px;
+    }
+
+    .flex-column-flags{
+      display: flex;
+      flex-direction: row;
+    }
+
+    .img-small-2{
+      width: 185px;
+      height: 135px;
+    }
+
+    .flex-4 {
+      display: flex;
+      flex-direction: row;
+    }
+
+    .flex-column-why-us{
+      display: flex;
+      flex-direction: row;
+    }
+
+    .test9 {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .container-3{
+      width: 1235px;
+    }
+
+    .container-4{
+      width: 1235px;
+    }
+
+    .flex-column-footer{
+      display: flex;
+      flex-direction: row;
+    }
+
+  }
+
+  @media (min-width:1024px) { /* Pc */
+    .container{
+      width: 61%;
+      margin: 0 auto;
+    }
+
+    .flex-column-modify-3{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+
+    .flex-column-modify-nav{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+
+    .img-logo {
+      width: 100%;
+      display: block;
+      margin: auto 0px;
+    }
+  }
